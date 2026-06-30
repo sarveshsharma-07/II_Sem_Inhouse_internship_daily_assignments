@@ -1,0 +1,36 @@
+body{
+    background-color:coral;
+    font-family: Arial, sans-serif;
+}
+div{
+    color:lightgrey;
+    background-color: #262626;
+    width: 300px;
+    padding: 0px 20px 20px;
+    border: 2px solid #262626;
+    margin :0 auto;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+h1 {
+    text-align: center;
+    color:cornflowerblue;
+    margin-bottom: 10px;
+}
+button{
+    width: 145px;
+    margin-bottom: 5px;
+    color:whitesmoke;
+    font-size:35px ;
+    background-color:rgb(80, 150, 80);
+    height:50px;
+    border-radius: 10px;
+}
+textarea{
+    height: 50px;
+    width:290px;
+}
+textarea,input,option,select{
+    color:grey;
+    background-color:#181818;
+}
