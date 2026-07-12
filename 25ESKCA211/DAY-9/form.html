@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form action="registration.php" method="post" class="form" enctype="multipart/form-data">
+            <h1>Registration Form</h1>
+            <hr>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter Name" id="name" name="name"   >
+            <br><br>
+            <label for="roll_no">ROLL NO:</label>
+            <input type="text" placeholder="Enter Roll No" id="roll_no" name="roll_no"   >
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter Email" id="email" name="email" >
+            <br><br>
+            <label for="cgpa">CGPA:</label>
+            <input type="number" placeholder="Enter CGPA" id="cgpa" name="cgpa" >
+            <br><br>
+            <label for="phno">Phone No:</label>
+            <input type="number" placeholder="Enter Phone No." id="phno" name="phonenumber">
+            <br><br>
+            <label for="gender">Gender :</label>
+            <input type="radio" id="male" name="gender" value="M">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="F">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="O">
+            <label for="other">Other</label>
+            <br><br>
+            <label for="dob">DOB:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <label for="course">Course</label>
+            <select id="course" name="branch" required  >
+                <option value="AI">AI</option>
+                <option value="DS">DS</option>
+                <option value="IT">IT</option>
+                <option value="IOT">IOT</option>
+            </select>
+            <br><br>
+            <label for="pass">Password:</label>
+            <input type="password" placeholder="Password" id="pass" name="password" >
+            <br><br>
+            <label for="confirm_pass">Password:</label>
+            <input type="password" placeholder="Confirm Password" id="confirm_pass" name="confirm_password">
+            <br><br>
+            <label for="msg">Address:</label><br>
+            <textarea id="msg" placeholder="Enter Address" name="Address"></textarea>
+            <br>
+            <label for="img">Upload:</label>
+            <input type="file" name="myfile" id="img" accept="image/*" >
+            <br><br>
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">Yes,I agree to Terms & Conditions. </label>
+            <br><br>
+            <center>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+            </center>     
+        </form>
+    </div>
+</body>
+</html>
