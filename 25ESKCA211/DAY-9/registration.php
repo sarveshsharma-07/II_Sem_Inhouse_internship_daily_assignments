@@ -26,3 +26,4 @@
     if (!is_numeric($phoneNumber)) {
         echo "Invalid phone number <br>";
     }
+?>
