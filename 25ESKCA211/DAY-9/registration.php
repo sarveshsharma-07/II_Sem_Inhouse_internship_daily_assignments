@@ -26,4 +26,5 @@
     if (!is_numeric($phoneNumber)) {
         echo "Invalid phone number <br>";
     }
+    echo "<h3>Values received:</h3>Name: $name Branch: $branch Email: $email Phone: $phoneNumber Checkbox:$check";
 ?>
